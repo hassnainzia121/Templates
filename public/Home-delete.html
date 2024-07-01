@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page delete</title>
+  </head>
+  <body>
+    <!-- main container -->
+    <div class="bg-black min-h-screen grid">
+      <!-- primary container -->
+      <div class="grid gap-8">
+        <!-- for header -->
+        <div
+          class="grid grid-cols-3 self-start place-items-center sm:px-8 sm:pt-8 px-4 pt-4"
+        >
+          <!-- search -->
+          <div
+            class="border-zinc-500 border-2 border-solid rounded-full p-2 grid place-self-start"
+          >
+            <img src="./img/Search.png" alt="search" />
+          </div>
+          <!-- home text -->
+          <div class="text-white font-semibold text-lg mx-auto">Home</div>
+          <!-- user image -->
+          <div class="grid place-self-end self-center">
+            <img src="./img/account-admin.png" alt="account-admin" />
+          </div>
+        </div>
+        <!-- story and chat for desktop -->
+        <div class="grid sm:grid-cols-4 gap-8 sm:gap-0">
+          <!-- for stories etc -->
+          <div
+            class="grid grid-cols-5 sm:grid-cols-none sm:col-span-1 gap-4 place-items-start sm:items-center sm:gap-5 pl-4 sm:bg-zinc-900"
+          >
+            <!-- first -->
+            <div class="grid gap-2 sm:gap-3 sm:grid-cols-2 place-items-center">
+              <div class="relative">
+                <div class="border-white border-2 p-1 rounded-full">
+                  <img src="./img/admin.png" alt="account-admin" />
+                </div>
+                <div class="absolute right-0 bottom-0">
+                  <img src="./img/plus-icon.png" alt="" />
+                </div>
+              </div>
+              <div class="text-white text-center sm:text-start">My Status</div>
+            </div>
+            <!-- second -->
+            <div class="grid gap-2 sm:gap-3 sm:grid-cols-2 items-center">
+              <div
+                class="border-yellow-600 border-solid border-2 p-1 rounded-full"
+              >
+                <img src="./img/adil.png" alt="adil" />
+              </div>
+              <div class="text-white text-center sm:text-start">Adil</div>
+            </div>
+            <!-- third -->
+            <div class="grid gap-2 sm:gap-3 sm:grid-cols-2 items-center">
+              <div
+                class="border-pink-700 border-solid border-2 p-1 rounded-full"
+              >
+                <img src="./img/marina.png" alt="marina" />
+              </div>
+              <div class="text-white text-center sm:text-start">Marina</div>
+            </div>
+            <!-- fourth -->
+            <div class="grid gap-2 sm:gap-3 sm:grid-cols-2 items-center">
+              <div
+                class="border-blue-600 border-solid border-2 p-1 rounded-full"
+              >
+                <img src="./img/dean.png" alt="account-admin" />
+              </div>
+              <div class="text-white text-center sm:text-start">Dean</div>
+            </div>
+            <!-- fifth -->
+            <div class="grid gap-2 sm:gap-3 sm:grid-cols-2 items-center">
+              <div
+                class="border-yellow-500 border-solid border-2 p-1 rounded-full"
+              >
+                <img src="./img/max.png" alt="account-admin" />
+              </div>
+              <div class="text-white text-center sm:text-start">Max</div>
+            </div>
+          </div>
+          <!-- main part for chatting -->
+          <div
+            class="bg-white sm:col-span-3 text-black rounded-t-3xl sm:rounded-none grid"
+          >
+            <!-- chat with friends section -->
+            <div
+              class="grid gap-4 sm:gap-5 sm:px-8 sm:py-4 px-4 py-2 overflow-hidden"
+            >
+              <!-- for top center border -->
+              <div class="grid place-items-center">
+                <div class="border-t-2 border-zinc-300 border-solid w-6"></div>
+              </div>
+              <!-- for chats -->
+              <div class="grid gap-5 sm:gap-8">
+                <!-- first -->
+                <div class="grid grid-cols-8 items-center">
+                  <!-- left part -->
+                  <div class="col-span-1 relative w-12">
+                    <img
+                      src="./img/first-person-chat.png"
+                      alt="first-person-chat"
+                    />
+                    <div
+                      class="bg-green-500 absolute right-1 bottom-0 rounded-full p-1 h-2 w-2"
+                    ></div>
+                  </div>
+                  <!-- middle part -->
+                  <div class="col-span-5 ml-7 grid sm:gap-1">
+                    <div class="text-xl font-semibold">Alex Linderson</div>
+                    <div class="text-sm text-zinc-500">How are you today?</div>
+                  </div>
+                  <!-- right part -->
+                  <div class="col-span-2 grid gap-1 sm:gap-2 place-items-end">
+                    <div class="text-sm text-zinc-500">2 min ago</div>
+                    <div>
+                      <img src="./img/notification-three.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <!-- second -->
+                <div class="grid grid-cols-8 items-center">
+                  <!-- left part -->
+                  <div class="col-span-1 relative w-12">
+                    <img src="./img/second-team-chat.png" alt="second-person" />
+                    <img
+                      src="./img/second-team-chat-2.png"
+                      alt=""
+                      class="absolute top-0 -right-1"
+                    />
+                    <img
+                      src="./img/second-team-chat-3.png"
+                      alt=""
+                      class="absolute bottom-0 -right-1"
+                    />
+                    <div
+                      class="bg-green-500 absolute right-1 bottom-0 rounded-full p-1 h-2 w-2"
+                    ></div>
+                  </div>
+                  <!-- middle part -->
+                  <div class="col-span-5 ml-7 grid sm:gap-1">
+                    <div class="text-xl font-semibold">Team Align</div>
+                    <div class="text-sm text-zinc-500">
+                      Don’t miss to attend the meeting.
+                    </div>
+                  </div>
+                  <!-- right part -->
+                  <div class="col-span-2 grid gap-1 sm:gap-2 place-items-end">
+                    <div class="text-sm text-zinc-500">2 min ago</div>
+                    <div>
+                      <img src="./img/notification-four.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <!-- third -->
+                <div class="bg-blue-50 relative -left-10">
+                  <div class="grid grid-cols-8 items-center">
+                    <!-- left part -->
+                    <div class="col-span-1 relative w-12">
+                      <img src="./img/adil.png" alt="first-person-chat" />
+                      <div
+                        class="bg-gray-400 absolute right-1 bottom-0 rounded-full p-1 h-2 w-2"
+                      ></div>
+                    </div>
+                    <!-- middle part -->
+                    <div class="col-span-5 ml-7 grid sm:gap-1">
+                      <div class="text-xl font-semibold">John Ahraham</div>
+                      <div class="text-sm text-zinc-500">
+                        Hey! Can you join the meeting?
+                      </div>
+                    </div>
+                    <!-- right part -->
+                    <div class="col-span-2 grid place-items-end self-start">
+                      <div class="text-sm text-zinc-500">2 min ago</div>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <!-- fourth -->
+                <div class="grid grid-cols-8 items-center">
+                  <!-- left part -->
+                  <div class="col-span-1 relative w-12">
+                    <img src="./img/marina.png" alt="first-person-chat" />
+                    <div
+                      class="bg-gray-400 absolute right-1 bottom-0 rounded-full p-1 h-2 w-2"
+                    ></div>
+                  </div>
+                  <!-- middle part -->
+                  <div class="col-span-5 ml-7 grid sm:gap-1">
+                    <div class="text-xl font-semibold">Sabila Sayma</div>
+                    <div class="text-sm text-zinc-500">How are you today?</div>
+                  </div>
+                  <!-- right part -->
+                  <div class="col-span-2 grid place-items-end self-start">
+                    <div class="text-sm text-zinc-500">2 min ago</div>
+                  </div>
+                </div>
+                <hr />
+                <!-- fifth -->
+                <div class="grid grid-cols-8 items-center">
+                  <!-- left part -->
+                  <div class="col-span-1 relative w-12">
+                    <img src="./img/max.png" alt="first-person-chat" />
+                    <div
+                      class="bg-green-500 absolute right-1 bottom-0 rounded-full p-1 h-2 w-2"
+                    ></div>
+                  </div>
+                  <!-- middle part -->
+                  <div class="col-span-5 ml-7 grid sm:gap-1">
+                    <div class="text-xl font-semibold">John Borino</div>
+                    <div class="text-sm text-zinc-500">Have a good day 🌸</div>
+                  </div>
+                  <!-- right part -->
+                  <div class="col-span-2 grid place-items-end self-start">
+                    <div class="text-sm text-zinc-500">2 min ago</div>
+                  </div>
+                </div>
+                <hr />
+                <!-- sixth -->
+                <div class="grid grid-cols-8 items-center">
+                  <!-- left part -->
+                  <div class="col-span-1 relative w-12">
+                    <img
+                      src="./img/last-person-chat.png"
+                      alt="first-person-chat"
+                    />
+                    <div
+                      class="bg-green-500 absolute right-1 bottom-0 rounded-full p-1 h-2 w-2"
+                    ></div>
+                  </div>
+                  <!-- middle part -->
+                  <div class="col-span-5 ml-7 grid sm:gap-1">
+                    <div class="text-xl font-semibold">Angel Dayna</div>
+                    <div class="text-sm text-zinc-500">How are you today?</div>
+                  </div>
+                  <!-- right part -->
+                  <div class="col-span-2 grid place-items-end self-start">
+                    <div class="text-sm text-zinc-500">2 min ago</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- footer -->
+            <!-- Overlapping Bottom Navigation Bar -->
+            <div
+              class="bg-white grid gap-4 grid-cols-4 place-items-center p-4 border-t"
+            >
+              <div class="text-green-600 font-semibold">
+                <img src="./img/Message.png" alt="call" class="mx-auto" />
+                <span>Message</span>
+              </div>
+              <div class="text-gray-600 font-semibold">
+                <img src="./img/Call.png" alt="call" class="mx-auto" />
+                <span>Calls</span>
+              </div>
+              <div class="text-gray-600 font-semibold">
+                <img src="./img/user.png" alt="user" class="mx-auto" />
+                <span>Contacts</span>
+              </div>
+              <div class="text-gray-600 font-semibold">
+                <img src="./img/settings.png" alt="settings" class="mx-auto" />
+                <span>Settings</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
