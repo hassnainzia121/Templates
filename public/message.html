@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Message</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .bg-color{
+        background-color: rgba(32, 160, 144, 1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid content-between min-h-screen">
+      <!-- header -->
+      <div class="grid items-center grid-flow-col self-start sm:px-8 sm:py-8 px-4 py-4">
+        <div class="grid grid-cols-6 place-self-start">
+          <!-- for arrow -->
+          <div
+            class="text-2xl col-span-1 font-bold grid place-self-start self-center"
+          >
+            &#8592;
+          </div>
+          <!-- for img and its activity -->
+          <div class="grid grid-cols-3 col-span-5 place-items-start">
+            <!-- for img -->
+            <div class="relative w-12 grid self-start col-span-1">
+              <img src="./img/adil.png" alt="first-person-chat" />
+              <div
+                class="bg-green-500 absolute right-2 bottom-0 rounded-full p-1 h-2 w-2"
+              ></div>
+            </div>
+            <!-- for name and about -->
+            <div class="col-span-2">
+              <div class="text-lg sm:text-2xl font-semibold">Jhon Abraham</div>
+              <div class="text-zinc-500">Active now</div>
+            </div>
+          </div>
+        </div>
+        <!-- for calls  -->
+        <div class="grid place-items-end">
+          <div class="grid grid-flow-col gap-2 sm:gap-4">
+            <img src="./img/call-black.png" alt="audio-call" />
+            <img src="./img/Video-call-black.png" alt="Video-call" />
+          </div>
+        </div>
+      </div>
+      <!-- text area -->
+      <div class="grid gap-6 text-lg bg-slate-50 sm:px-8 sm:py-8 px-4 py-4">
+        <!-- stauts activity -->
+        <div class="bg-slate-100 grid place-self-center px-2 text-base font-medium rounded-lg">Today</div>
+        <!-- mine msg -->
+        <div class="grid place-items-end gap-1">
+          <div class="bg-color rounded-l-xl rounded-br-xl text-base text-white p-2">Hello! Jhon abraham</div>
+          <div class="text-sm text-zinc-500">09:25 AM</div>
+        </div>
+        <!-- opposite side msg -->
+         <div class="grid grid-cols-4 place-self-start">
+          <img src="./img/adil.png" alt="opposite user" class="col-span-1">
+          <div class="col-span-3 grid gap-2">
+            <p class="font-semibold text-lg">Jhon Abraham</p>
+            <div class="relative -right-1 grid gap-1">
+              <p class="p-2 bg-slate-100 rounded-r-xl rounded-bl-xl text-base font-medium text-zinc-800">Hello ! Nazrul How are you?</p>
+              <p class="text-end text-sm text-zinc-500 relative -right-1">09:25 AM</p>
+            </div>
+          </div>
+         </div>
+         <!-- again me -->
+         <div class="grid place-items-end gap-1">
+          <div class="bg-color rounded-l-xl rounded-br-xl text-base text-white p-2">You did your job well!</div>
+          <div class="text-sm text-zinc-500">09:25 AM</div>
+        </div>
+        <!-- again opposite side -->
+        <div class="grid grid-cols-4 place-self-start">
+          <img src="./img/adil.png" alt="opposite user" class="col-span-1">
+          <div class="col-span-3 grid gap-2">
+            <p class="font-semibold text-lg">Jhon Abraham</p>
+            <div class="relative -right-1 grid gap-3 place-items-start">
+              <p class="p-2 bg-slate-100 rounded-r-xl rounded-bl-xl text-base font-medium text-zinc-800">Hello ! Nazrul How are you?</p>
+              <div class="grid gap-1">
+              <p class="p-2 bg-slate-100 rounded-r-xl rounded-bl-xl text-base font-medium text-zinc-800">Hope you like it</p>
+              <p class="text-end text-sm text-zinc-500 relative -right-1">09:25 AM</p>
+            </div>
+            </div>
+          </div>
+         </div>
+         <!-- again me -->
+         <div class="grid place-items-end gap-1">
+          <img src="./img/Voice-msg.png" alt="Voice-msg">
+          <div class="text-sm text-zinc-500">09:25 AM</div>
+        </div>
+    </div>
+    <!-- last where we write msg -->
+     <div class="sm:px-8 sm:py-8 px-4 py-4">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sed accusantium quidem itaque ipsa aspernatur quia maiores delectus dolore animi, necessitatibus corrupti minima explicabo quo excepturi autem labore alias iusto voluptatem ullam odit nemo tempore? Quas magni quidem fugiat ipsum accusantium amet id quisquam rem reprehenderit! Commodi explicabo blanditiis necessitatibus, optio alias suscipit? Rerum deleniti, tenetur accusantium voluptatem distinctio optio error! Suscipit sed voluptatibus dolorem quis iste officiis facere, unde eaque consequuntur, rerum excepturi asperiores explicabo optio eos fugit dicta quas laborum temporibus enim expedita obcaecati rem accusantium? Sed repellendus sint accusantium quaerat amet! Assumenda nam laboriosam asperiores minima molestiae.
+     </div>
+  </body>
+</html>
